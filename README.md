@@ -7,4 +7,8 @@ Tkinter is a Python binding to the Tk GUI toolkit. Tk is the original GUI librar
 ```sh
 $ sudo apt-get install python3-tk
 ```
+# 2.Raw GUI for My Project
+<img src="https://drive.google.com/uc?id=1qqRsIB37cMcizGDzfCK1vmECndPbwSnu" alt="alt text" width="1216" height="491"/>
+
+# 3. Create All Frames 
 
