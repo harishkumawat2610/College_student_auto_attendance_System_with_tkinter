@@ -42,7 +42,7 @@ root.geometry("1210x750+150+150")
 root.mainloop()
 
 ```
-# Code for topframe
+# 4. Code for topframe
 ```sh
 #Create topframe on root window
 topframe=Frame(root)
