@@ -54,3 +54,4 @@ label=Label(root,text="Ad-hoc Networks Attendance System",font=my_font,foregroun
 #pack topframe on top side
 topframe.pack(side=TOP)
 ```
+# Code Continuous...
