@@ -8,7 +8,14 @@ root = Tk()
 root.title("Ad-hoc Networks Attendance System")
 
 #Create topframe with top side
+#Create topframe on root window
 topframe=Frame(root)
+
+#create coustom font for my company
+my_font=Font(family="Rekha",size=30,weight="bold",slant="italic")
+#create label on root window
+label=Label(root,text="Ad-hoc Networks Attendance System",font=my_font,foreground="#283142").pack()
+#pack topframe on top side
 topframe.pack(side=TOP)
 
 #Create bottomframe with bottom side
