@@ -22,9 +22,18 @@ topframe.pack(side=TOP)
 bottomframe=Frame(root)
 
 #Create leftframe in bottomframe with  left side
+#create leftframe in bottomframe with left side
 leftframe=Frame(bottomframe,bg='black')
-leftframe.pack(side=LEFT)
 
+#create a canvas for image on leftframe
+canvas=Canvas(leftframe,width=627,height=663)
+canvas.pack()
+
+#photo for canvas with photo path
+photo=PhotoImage(file='//home//kuma-company//Attedance_tkinter//adhocprofile.png')
+#create position of canvas and image start at NW
+canvas.create_image(50,10,image=photo,anchor=NW)
+leftframe.pack(side=LEFT)
 #Create rightframe in bottomframe with right side
 rightframe=Frame(bottomframe,padx=50)
 rightframe.pack(side=RIGHT)
