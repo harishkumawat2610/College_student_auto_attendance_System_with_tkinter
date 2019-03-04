@@ -8,7 +8,9 @@ Tkinter is a Python binding to the Tk GUI toolkit. Tk is the original GUI librar
 $ sudo apt-get install python3-tk
 ```
 # 2.Raw GUI for My Project
+
 <img src="https://drive.google.com/uc?id=1qqRsIB37cMcizGDzfCK1vmECndPbwSnu" alt="alt text" width="1216" height="491"/>
+
 
 # 3. Create All Frames 
 
@@ -40,7 +42,6 @@ rightframe.pack(side=RIGHT)
 root.geometry("1210x750+150+150")
 #stable main window on infinity time
 root.mainloop()
-
 ```
 # 4. Code for topframe
 ```sh
@@ -54,6 +55,11 @@ label=Label(root,text="Ad-hoc Networks Attendance System",font=my_font,foregroun
 #pack topframe on top side
 topframe.pack(side=TOP)
 ```
+## Ouput:- 
+
+<img src="https://drive.google.com/uc?id=1N4D-36C_eNqXFwePJ7ys4Fu0HJ7fnlcp" alt="alt text" width="700" height="300"/>
+
+
 # 5. code for leftframe in bottomframe
 ```s
 #create leftframe in bottomframe with left side
@@ -69,4 +75,7 @@ photo=PhotoImage(file='//home//kuma-company//Attedance_tkinter//adhocprofile.png
 canvas.create_image(50,10,image=photo,anchor=NW)
 leftframe.pack(side=LEFT)
 ```
-# Code Continuous...
+## Output:-
+Not Include right side button coding in code portion
+<img src="https://drive.google.com/uc?id=1W2W-UTJCOj5casCGgtckhyFzkH0i5ncL" alt="alt text" />
+# Next Day Code Continuous...
