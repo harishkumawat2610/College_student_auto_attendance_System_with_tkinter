@@ -54,4 +54,19 @@ label=Label(root,text="Ad-hoc Networks Attendance System",font=my_font,foregroun
 #pack topframe on top side
 topframe.pack(side=TOP)
 ```
+# 5. code for leftframe in bottomframe
+```s
+#create leftframe in bottomframe with left side
+leftframe=Frame(bottomframe,bg='black')
+
+#create a canvas for image on leftframe
+canvas=Canvas(leftframe,width=627,height=663)
+canvas.pack()
+
+#photo for canvas with photo path
+photo=PhotoImage(file='//home//kuma-company//Attedance_tkinter//adhocprofile.png')
+#create position of canvas and image start at NW
+canvas.create_image(50,10,image=photo,anchor=NW)
+leftframe.pack(side=LEFT)
+```
 # Code Continuous...
