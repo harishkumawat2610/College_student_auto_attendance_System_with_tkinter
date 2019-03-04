@@ -1,5 +1,6 @@
 #import tkintter
 from tkinter import *
+from tkinter.font import Font
 
 #Create window
 root = Tk()
@@ -37,6 +38,7 @@ leftframe.pack(side=LEFT)
 #Create rightframe in bottomframe with right side
 rightframe=Frame(bottomframe,padx=50)
 rightframe.pack(side=RIGHT)
+bottomframe.pack()
 #Set window geometry width 1210 and height 750 and open position on screen left to 150 and top to 150
 root.geometry("1210x750+150+150")
 #stable main window on infinity time
