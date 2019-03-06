@@ -81,6 +81,14 @@ Not Include right side button coding in code portion
 # 6. code for rightframe in bottomframe
 ```s
 rightframe=Frame(bottomframe,padx=50)
+photo1=PhotoImage(file='//home//kuma-company//Attedance_tkinter//add.png')
+photo2=PhotoImage(file='//home//kuma-company//Attedance_tkinter//start.png')
+photo3=PhotoImage(file='//home//kuma-company//Attedance_tkinter//stop.png')
+photo4=PhotoImage(file='//home//kuma-company//Attedance_tkinter//file.png')
+photo5=PhotoImage(file='//home//kuma-company//Attedance_tkinter//exit.png')
+photo6=PhotoImage(file='//home//kuma-company//Attedance_tkinter//clock.png')
+photo7=PhotoImage(file='//home//kuma-company//Attedance_tkinter//camera1.png')
+photo8=PhotoImage(file='//home//kuma-company//Attedance_tkinter//upimg.png')
 rightframe.pack(side=RIGHT)
 ```
 
