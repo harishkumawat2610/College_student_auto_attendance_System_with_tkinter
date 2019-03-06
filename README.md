@@ -130,3 +130,5 @@ rightframe.pack(side=RIGHT)
 
 ## output:-
 <img src="https://drive.google.com/uc?id=1SZvTi_tzv39_N21Hn1gykUKuP1FPRsx1" alt="alt text" />
+
+# Next day continuous code 
