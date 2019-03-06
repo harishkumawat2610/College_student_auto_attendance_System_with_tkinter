@@ -78,4 +78,10 @@ leftframe.pack(side=LEFT)
 ## Output:-
 Not Include right side button coding in code portion
 <img src="https://drive.google.com/uc?id=1W2W-UTJCOj5casCGgtckhyFzkH0i5ncL" alt="alt text" />
-# Next Day Code Continuous...
+# 6. code for rightframe in bottomframe
+```s
+
+```
+
+## output:-
+<img src="https://drive.google.com/uc?id=1SZvTi_tzv39_N21Hn1gykUKuP1FPRsx1" alt="alt text" />
