@@ -80,7 +80,8 @@ Not Include right side button coding in code portion
 <img src="https://drive.google.com/uc?id=1W2W-UTJCOj5casCGgtckhyFzkH0i5ncL" alt="alt text" />
 # 6. code for rightframe in bottomframe
 ```s
-
+rightframe=Frame(bottomframe,padx=50)
+rightframe.pack(side=RIGHT)
 ```
 
 ## output:-
