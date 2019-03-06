@@ -81,6 +81,7 @@ Not Include right side button coding in code portion
 # 6. code for rightframe in bottomframe
 ```s
 rightframe=Frame(bottomframe,padx=50)
+#create all image path for buttons and checkbox images
 photo1=PhotoImage(file='//home//kuma-company//Attedance_tkinter//add.png')
 photo2=PhotoImage(file='//home//kuma-company//Attedance_tkinter//start.png')
 photo3=PhotoImage(file='//home//kuma-company//Attedance_tkinter//stop.png')
@@ -89,6 +90,31 @@ photo5=PhotoImage(file='//home//kuma-company//Attedance_tkinter//exit.png')
 photo6=PhotoImage(file='//home//kuma-company//Attedance_tkinter//clock.png')
 photo7=PhotoImage(file='//home//kuma-company//Attedance_tkinter//camera1.png')
 photo8=PhotoImage(file='//home//kuma-company//Attedance_tkinter//upimg.png')
+
+
+Bt1=Button(rightframe,text="New Entry",image=photo1,activebackground="green", bd=0,width=10)
+Bt1.pack(fill=X)
+Bt2=Button(rightframe,text="Start",image=photo2,activebackground="green", bd=0)
+Bt2.pack(fill=X,pady=10)
+
+Bt3=Button(rightframe,text="Stop(Press'Q')",image=photo3,activebackground="green", bd=0)
+Bt3.pack(fill=X,pady=10)
+Bt4=Button(rightframe,text="files",width=10,image=photo4,activebackground="green", bd=0)
+Bt4.pack(fill=X,pady=10)
+Bt2=Button(rightframe,text="EXIT",image=photo5,activebackground="green", bd=0)
+Bt2.pack(fill=X,pady=10)
+frame1=LabelFrame(rightframe,text="Input",padx=5,pady=5)
+h=StringVar()
+check_bt=Checkbutton(rightframe,text="Set Time",variable=h, offvalue="uncheck",onvalue="check",activeforeground="green",width=120,image=photo6,compound=TOP)
+check_bt.pack(side=LEFT)
+M=StringVar()
+check_bt=Checkbutton(rightframe,text="Upload Image",variable=M, offvalue="uncheck",onvalue="check",activeforeground="green",width=120,image=photo8,compound=TOP)
+check_bt.pack(side=RIGHT)
+k=StringVar()
+check_bt=Checkbutton(rightframe,text="Set Camera",variable=k, offvalue="cameraoff",onvalue="cameraon",activeforeground="green",width=130,image=photo7,compound=TOP)
+check_bt.pack(side=RIGHT)
+#check_bt=Checkbutton(rightframe,text="Set Time",variable=h, offvalue="uncheck",onvalue="check",activeforeground="green",selectcolor="red",width=50)
+#check_bt.pack()
 rightframe.pack(side=RIGHT)
 ```
 
