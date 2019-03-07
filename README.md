@@ -131,7 +131,7 @@ rightframe.pack(side=RIGHT)
 ## output:-
 <img src="https://drive.google.com/uc?id=1SZvTi_tzv39_N21Hn1gykUKuP1FPRsx1" alt="alt text" />
 
-# create menu on root
+# 7. Create menu on root
 ```s
 #create a main_menu on root
 main_menu=Menu(root)
