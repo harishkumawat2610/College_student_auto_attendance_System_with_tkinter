@@ -133,7 +133,40 @@ rightframe.pack(side=RIGHT)
 
 # create menu on root
 ```s
+#create a main_menu on root
+main_menu=Menu(root)
 
+#config main_menu with root
+root.config(menu=main_menu)
+ 
+#Create fileMenu on main_menu and tearoff = False means not show deses point on menu
+fileMenu=Menu(main_menu,tearoff=False)
+
+#add first label on main_main is More options 
+main_menu.add_cascade(label="More Options",menu=fileMenu)
+
+# add a label "open files" on fileMenu 
+fileMenu.add_command(label="Open files")
+
+#using separator for show labels in one group
+fileMenu.add_separator()
+
+#add label "Images
+fileMenu.add_command(label="Images")
+fileMenu.add_separator()
+
+#add label attendance count
+fileMenu.add_command(label="Attendance Count")
+
+# add label attendance search 
+fileMenu.add_command(label="Attendance Search")
+fileMenu.add_separator()
+
+#Create submenu on fileMenu
+Newfile=Menu(fileMenu,tearoff=False)
+Newfile.add_command(label="College Website")
+Newfile.add_command(label="About")
+fileMenu.add_cascade(label="More options",menu=Newfile)
 ```
 # Output:-
 <img src="https://drive.google.com/uc?id=1LlC5q2FVqIqhdCGVticDBmotSgW4Tint" alt="alt text" />
