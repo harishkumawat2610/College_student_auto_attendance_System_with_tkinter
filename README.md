@@ -131,4 +131,11 @@ rightframe.pack(side=RIGHT)
 ## output:-
 <img src="https://drive.google.com/uc?id=1SZvTi_tzv39_N21Hn1gykUKuP1FPRsx1" alt="alt text" />
 
+# create menu on root
+```s
+
+```
+# Output:-
+<img src="https://drive.google.com/uc?id=1LlC5q2FVqIqhdCGVticDBmotSgW4Tint" alt="alt text" />
+
 # Next day continuous code 
