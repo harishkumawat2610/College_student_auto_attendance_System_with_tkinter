@@ -170,8 +170,8 @@ fileMenu.add_cascade(label="More options",menu=Newfile)
 ```
 # Output:-
 <img src="https://drive.google.com/uc?id=1LlC5q2FVqIqhdCGVticDBmotSgW4Tint" alt="alt text" />
-
-# 8. Working function for add button
+# if upload image not checked
+# 1. Working function for add button
 ```sh
 def Open_new():
 	#import dataset_creator
@@ -320,5 +320,6 @@ def Open_new():
 		pickle.dump(ids,file_data)
 
 ```
+ 
 
 # Next day continuous code 
