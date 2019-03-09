@@ -321,5 +321,9 @@ def Open_new():
 
 ```
  
-
+# 2. if upload Image checked
+ calling image_taker(dir_name,student_id)
+ in above code means else part excuted
+ 
+ 
 # Next day continuous code 
