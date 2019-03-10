@@ -44,6 +44,7 @@ root.geometry("1210x750+150+150")
 root.mainloop()
 ```
 # 4. Code for topframe
+
 ```sh
 #Create topframe on root window
 topframe=Frame(root)
@@ -55,6 +56,7 @@ label=Label(root,text="Ad-hoc Networks Attendance System",font=my_font,foregroun
 #pack topframe on top side
 topframe.pack(side=TOP)
 ```
+
 ## Ouput:- 
 
 <img src="https://drive.google.com/uc?id=1N4D-36C_eNqXFwePJ7ys4Fu0HJ7fnlcp" alt="alt text" width="700" height="300"/>
@@ -76,9 +78,15 @@ canvas.create_image(50,10,image=photo,anchor=NW)
 leftframe.pack(side=LEFT)
 ```
 ## Output:-
+
 Not Include right side button coding in code portion
+
 <img src="https://drive.google.com/uc?id=1W2W-UTJCOj5casCGgtckhyFzkH0i5ncL" alt="alt text" />
+
+
 # 6. code for rightframe in bottomframe
+
+
 ```s
 rightframe=Frame(bottomframe,padx=50)
 #create all image path for buttons and checkbox images
@@ -129,9 +137,11 @@ rightframe.pack(side=RIGHT)
 ```
 
 ## output:-
+
 <img src="https://drive.google.com/uc?id=1SZvTi_tzv39_N21Hn1gykUKuP1FPRsx1" alt="alt text" />
 
 # 7. Create menu on root
+
 ```s
 #create a main_menu on root
 main_menu=Menu(root)
@@ -168,10 +178,15 @@ Newfile.add_command(label="College Website")
 Newfile.add_command(label="About")
 fileMenu.add_cascade(label="More options",menu=Newfile)
 ```
+
 # Output:-
+
 <img src="https://drive.google.com/uc?id=1LlC5q2FVqIqhdCGVticDBmotSgW4Tint" alt="alt text" />
-# if upload image not checked
+
+#  if upload image not checked
+
 # 1. Working function for add button
+
 ```sh
 def Open_new():
 	#import dataset_creator
@@ -320,9 +335,16 @@ def Open_new():
 		pickle.dump(ids,file_data)
 
 ```
- 
+
+# 2. if upload Image checked
+
+```sh 
+calling image_taker(dir_name,student_id)
+ in above code means else part excuted
+```
  
  # Working with start button
+ 
  ```sh
  def start():
 	def save_att(student_id,name_student):
