@@ -334,6 +334,7 @@ def Open_new():
 		ids=[]
 		currentDT = datetime.datetime.now()
 		date=currentDT.strftime("%I:%M:%S")
+		#create csv file with date name
 		file_name=d.strftime("%d_%B"+".csv")
 		try:       
 			with open(file_name,'r+') as file_data:
