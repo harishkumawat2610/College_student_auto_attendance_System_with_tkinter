@@ -326,5 +326,9 @@ def Open_new():
  calling image_taker(dir_name,student_id)
  in above code means else part excuted
  
+ # Working with start button
+ ```sh
+ 
+ ```
  
 # Next day continuous code 
