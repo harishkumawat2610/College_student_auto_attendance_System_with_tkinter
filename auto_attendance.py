@@ -312,7 +312,7 @@ Bt2=Button(rightframe,text="Start",image=photo2,activebackground="green", bd=0)
 Bt2.pack(fill=X,pady=10)
 
 ##button bt3 for stop camera
-Bt3=Button(rightframe,text="Stop(Press'Q')",image=photo3,activebackground="green", bd=0)
+Bt3=Button(rightframe,text="Stop(Press'Q')",image=photo3,commad=stop,activebackground="green", bd=0)
 Bt3.pack(fill=X,pady=10)
 
 ##button bt4 for seen files
