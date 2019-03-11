@@ -308,7 +308,7 @@ Bt1=Button(rightframe,text="New Entry",image=photo1,commad=Open_new,activebackgr
 Bt1.pack(fill=X)
 
 #button bt2 for start webcam
-Bt2=Button(rightframe,text="Start",image=photo2,activebackground="green", bd=0)
+Bt2=Button(rightframe,text="Start",image=photo2,command=start,activebackground="green", bd=0)
 Bt2.pack(fill=X,pady=10)
 
 ##button bt3 for stop camera
