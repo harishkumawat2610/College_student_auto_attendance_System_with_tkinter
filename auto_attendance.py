@@ -304,7 +304,7 @@ photo7=PhotoImage(file='//home//kuma-company//Attedance_tkinter//camera1.png')
 photo8=PhotoImage(file='//home//kuma-company//Attedance_tkinter//upimg.png')
 
 #button bt1 for add new entry
-Bt1=Button(rightframe,text="New Entry",image=photo1,activebackground="green", bd=0,width=10)
+Bt1=Button(rightframe,text="New Entry",image=photo1,commad=Open_new,activebackground="green", bd=0,width=10)
 Bt1.pack(fill=X)
 
 #button bt2 for start webcam
