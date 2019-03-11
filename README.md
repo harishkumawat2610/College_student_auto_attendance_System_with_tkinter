@@ -461,4 +461,6 @@ calling image_taker(dir_name,student_id)
 	cv2.destroyAllWindows()
  ```
  
+ # working function of stop button
+-  we are handly by short key press Q for stop
 # Next day continuous code 
