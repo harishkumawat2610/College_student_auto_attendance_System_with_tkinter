@@ -1,6 +1,10 @@
 #import tkintter
 from tkinter import *
+
+#import font for font
 from tkinter.font import Font
+
+#def function for new entry button
 def Open_new():
 	#import dataset_creator
 	#creating blank lists
